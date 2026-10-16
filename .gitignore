@@ -1,0 +1,29 @@
+# KiCad local state and active project locks
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# KiCad automatic history, backups, and autosaves
+.history/
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.brd-bak
+*~
+
+# Temporary layout experiments and review exports
+/.routing-*/
+/.layout-optimization-*/
+/.change-backup/
+/layout-output/
+/test_route.*
+
+# Local purchasing research and shopping records
+/purchasing/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+desktop.ini

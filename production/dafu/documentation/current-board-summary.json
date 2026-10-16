@@ -1,0 +1,1814 @@
+{
+  "source": {
+    "pcb_path": "DAFU.kicad_pcb",
+    "pcb_sha256": "16c16d32f7731cb15bf84564cf54f34b62e3aa2eb81f13218ef568a6f13b8d69",
+    "schematic_path": "DAFU.kicad_sch",
+    "schematic_sha256": "950f0027fa88d0f253d86678b976825fd9cf5666869c58acd82876a890114edf"
+  },
+  "saved_copper_exported_without_refill": true,
+  "outline": {
+    "dimensions_mm": [
+      30.0,
+      31.6
+    ],
+    "area_mm2": 946.0,
+    "bounding_box_mm": {
+      "xmin": 34.22,
+      "ymin": 30.47,
+      "xmax": 64.22,
+      "ymax": 62.07
+    },
+    "vertices_mm": [
+      [
+        34.22,
+        31.47
+      ],
+      [
+        35.22,
+        30.47
+      ],
+      [
+        63.22,
+        30.47
+      ],
+      [
+        64.22,
+        31.47
+      ],
+      [
+        64.22,
+        61.07
+      ],
+      [
+        63.22,
+        62.07
+      ],
+      [
+        35.22,
+        62.07
+      ],
+      [
+        34.22,
+        61.07
+      ]
+    ],
+    "edge_segments": 8
+  },
+  "stackup": {
+    "copper_layers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "copper_layer_count": 2,
+    "board_thickness_mm": 1.6
+  },
+  "footprints": {
+    "total": 47,
+    "front": 45,
+    "back": 2,
+    "back_references": [
+      "TP5",
+      "TP6"
+    ]
+  },
+  "routing": {
+    "track_segments": 322,
+    "vias": 74,
+    "via_by_net": {
+      "+2V5": 8,
+      "+3.3V": 8,
+      "+5V": 5,
+      "GND": 50,
+      "NRST": 1,
+      "Net-(U9-+)": 2
+    },
+    "via_by_drill_mm": {
+      "0.3": 74
+    },
+    "via_by_drill_and_diameter_mm": [
+      {
+        "drill_mm": 0.3,
+        "diameter_mm": 0.5,
+        "count": 35
+      },
+      {
+        "drill_mm": 0.3,
+        "diameter_mm": 0.55,
+        "count": 4
+      },
+      {
+        "drill_mm": 0.3,
+        "diameter_mm": 0.6,
+        "count": 35
+      }
+    ],
+    "track_width_mm_counts": {
+      "0.18": 57,
+      "0.2": 72,
+      "0.22": 51,
+      "0.25": 32,
+      "0.3": 60,
+      "0.35": 39,
+      "0.45": 11
+    },
+    "track_layers": {
+      "F.Cu": 295,
+      "B.Cu": 27
+    }
+  },
+  "native_teardrops": {
+    "total": 279,
+    "by_type": {
+      "padvia": 279
+    },
+    "by_layer": {
+      "F.Cu": 253,
+      "B.Cu": 26
+    },
+    "filled_polygon_count": 280,
+    "zones_with_filled_polygons": 279
+  },
+  "ordinary_zones": [
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "connect_pads": "yes",
+      "solid_direct_connection": true,
+      "outline_polygon_count": 1,
+      "filled_polygon_count": 1,
+      "filled_polygon_layers": {
+        "B.Cu": 1
+      },
+      "fill_enabled": true,
+      "fill_settings": [
+        [
+          "thermal_gap",
+          "0.5"
+        ],
+        [
+          "thermal_bridge_width",
+          "0.5"
+        ],
+        [
+          "island_removal_mode",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "bottom_silkscreen_texts": [
+    {
+      "text": "DAFU-DEMO-V0.2.1",
+      "at": [
+        "53.482395",
+        "57.282969",
+        "0"
+      ],
+      "layer": "B.SilkS"
+    },
+    {
+      "text": "CONF_CONC",
+      "at": [
+        "53.482395",
+        "58.282969",
+        "0"
+      ],
+      "layer": "B.SilkS"
+    },
+    {
+      "text": "2026-10-12",
+      "at": [
+        "53.482395",
+        "59.282969",
+        "0"
+      ],
+      "layer": "B.SilkS"
+    }
+  ],
+  "bottom_paste": {
+    "pad_count": 0,
+    "pads": [],
+    "board_graphics_count": 0
+  },
+  "assembly": {
+    "U6": {
+      "reference": "U6",
+      "schematic": {
+        "value": "TLC2274AIDR",
+        "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TLC2274AIDR",
+        "dnp": false,
+        "exclude_from_bom": false,
+        "exclude_from_pos": false,
+        "on_board": true
+      },
+      "pcb": {
+        "value": "TLC2274AIDR",
+        "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+        "Manufacturer": "Texas Instruments",
+        "MPN": "TLC2274AIDR",
+        "dnp": false,
+        "exclude_from_bom": false,
+        "exclude_from_pos": false,
+        "pads": {
+          "1": "IN1_O",
+          "2": "IN1_O",
+          "3": "IN1",
+          "4": "+5V",
+          "5": "IN2",
+          "6": "IN2_O",
+          "7": "IN2_O",
+          "8": "IN3_O",
+          "9": "IN3_O",
+          "10": "IN3",
+          "11": "GND",
+          "12": "IN4",
+          "13": "IN4_O",
+          "14": "IN4_O"
+        }
+      },
+      "unit_count": 5,
+      "differences": {}
+    },
+    "U9": {
+      "reference": "U9",
+      "schematic": {
+        "value": "OPA333AIDBVR",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Manufacturer": "UMW",
+        "MPN": "OPA333AIDBVR",
+        "dnp": false,
+        "exclude_from_bom": false,
+        "exclude_from_pos": false,
+        "on_board": true
+      },
+      "pcb": {
+        "value": "OPA333AIDBVR",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "Manufacturer": "UMW",
+        "MPN": "OPA333AIDBVR",
+        "dnp": false,
+        "exclude_from_bom": false,
+        "exclude_from_pos": false,
+        "pads": {
+          "1": "+2V5",
+          "2": "GND",
+          "3": "Net-(U9-+)",
+          "4": "+2V5",
+          "5": "+5V"
+        }
+      },
+      "unit_count": 1,
+      "differences": {}
+    },
+    "C11": {
+      "reference": "C11",
+      "schematic": {
+        "value": "100nf",
+        "footprint": "DAFU_PCB:C_0603_1608Metric",
+        "Manufacturer": null,
+        "MPN": null,
+        "dnp": true,
+        "exclude_from_bom": false,
+        "exclude_from_pos": false,
+        "on_board": true
+      },
+      "pcb": {
+        "value": "100nf",
+        "footprint": "DAFU_PCB:C_0603_1608Metric",
+        "Manufacturer": null,
+        "MPN": null,
+        "dnp": false,
+        "exclude_from_bom": false,
+        "exclude_from_pos": false,
+        "pads": {
+          "1": "Net-(U9-+)",
+          "2": "GND"
+        }
+      },
+      "unit_count": 1,
+      "differences": {
+        "dnp": {
+          "schematic": true,
+          "pcb": false
+        }
+      }
+    },
+    "DNP_rule_for_assembly": "C11 is explicitly DNP in schematic; PCB lacks dnp. Preserve saved PCB copper while excluding C11 from fitted BOM/POS.",
+    "u2_missing_pads_and_schematic_no_connect": [
+      {
+        "pin": "10",
+        "name": "PA0",
+        "schematic_coordinate": [
+          55.88,
+          41.91
+        ],
+        "no_connect_marker": true,
+        "pcb_pad_exists": false,
+        "pcb_net": null
+      },
+      {
+        "pin": "17",
+        "name": "PA7",
+        "schematic_coordinate": [
+          55.88,
+          59.69
+        ],
+        "no_connect_marker": true,
+        "pcb_pad_exists": false,
+        "pcb_net": null
+      },
+      {
+        "pin": "18",
+        "name": "PB0",
+        "schematic_coordinate": [
+          25.4,
+          74.93
+        ],
+        "no_connect_marker": true,
+        "pcb_pad_exists": false,
+        "pcb_net": null
+      },
+      {
+        "pin": "19",
+        "name": "PB1",
+        "schematic_coordinate": [
+          25.4,
+          77.47
+        ],
+        "no_connect_marker": true,
+        "pcb_pad_exists": false,
+        "pcb_net": null
+      }
+    ],
+    "attribute_mismatches": [
+      {
+        "reference": "C11",
+        "differences": {
+          "dnp": {
+            "schematic": true,
+            "pcb": false
+          }
+        }
+      },
+      {
+        "reference": "TP1",
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "TP2",
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "TP5",
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "TP6",
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      }
+    ],
+    "pcb_footprint_records": [
+      {
+        "reference": "C1",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "NRST",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C2",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C3",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C4",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C5",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C6",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C7",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C8",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C9",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C11",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": true,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "Net-(U9-+)",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {
+          "dnp": {
+            "schematic": true,
+            "pcb": false
+          }
+        }
+      },
+      {
+        "reference": "C12",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C13",
+        "schematic": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nf",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C14",
+        "schematic": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C15",
+        "schematic": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C20",
+        "schematic": {
+          "value": "100nF",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nF",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C21",
+        "schematic": {
+          "value": "100nF",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100nF",
+          "footprint": "DAFU_PCB:C_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C24",
+        "schematic": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "C25",
+        "schematic": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "10uF",
+          "footprint": "DAFU_PCB:C_0805_2012Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "D1",
+        "schematic": {
+          "value": "LED",
+          "footprint": "LED_SMD:LED_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "LED",
+          "footprint": "LED_SMD:LED_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "Net-(D1-K)",
+            "2": "+5V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "J1",
+        "schematic": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "IN1",
+            "3": "GND",
+            "MP": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "J2",
+        "schematic": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "IN2",
+            "3": "GND",
+            "MP": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "J3",
+        "schematic": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "IN3",
+            "3": "GND",
+            "MP": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "J4",
+        "schematic": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "Conn_01x03_MountingPin",
+          "footprint": "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+5V",
+            "2": "IN4",
+            "3": "GND",
+            "MP": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "J5",
+        "schematic": {
+          "value": "Conn_01x04",
+          "footprint": "Connector_Molex:Molex_CLIK-Mate_502386-0470_1x04-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "Conn_01x04",
+          "footprint": "Connector_Molex:Molex_CLIK-Mate_502386-0470_1x04-1MP_P1.25mm_Horizontal",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "SWDIO",
+            "2": "SWCLK",
+            "3": "GND",
+            "4": "Net-(J5-Pin_4)",
+            "MP": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R5",
+        "schematic": {
+          "value": "10k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "10k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "Net-(U2-BOOT0)",
+            "2": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R6",
+        "schematic": {
+          "value": "10k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "10k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "NRST"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R9",
+        "schematic": {
+          "value": "5.1k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "5.1k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "Net-(U9-+)",
+            "2": "+5V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R10",
+        "schematic": {
+          "value": "5.1k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "5.1k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "GND",
+            "2": "Net-(U9-+)"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R11",
+        "schematic": {
+          "value": "5.1k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "5.1k",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "GND",
+            "2": "Net-(D1-K)"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R12",
+        "schematic": {
+          "value": "820K",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "820K",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "GND",
+            "2": "Net-(U9-+)"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R13",
+        "schematic": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN1_AMP",
+            "2": "IN1_ADC"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R14",
+        "schematic": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN2_AMP",
+            "2": "IN2_ADC"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R15",
+        "schematic": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN3_AMP",
+            "2": "IN3_ADC"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R16",
+        "schematic": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "100R",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN4_AMP",
+            "2": "IN4_ADC"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "R19",
+        "schematic": {
+          "value": "0",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "0",
+          "footprint": "DAFU_PCB:R_0603_1608Metric",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "Net-(J5-Pin_4)"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "TP1",
+        "schematic": {
+          "value": "5V_IN",
+          "footprint": "DAFU_PCB:SolderWire_Pad_2.5x2.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "5V_IN",
+          "footprint": "DAFU_PCB:SolderWire_Pad_2.5x2.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": true,
+          "pads": {
+            "1": "+5V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "TP2",
+        "schematic": {
+          "value": "GND",
+          "footprint": "DAFU_PCB:SolderWire_Pad_2.5x2.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "GND",
+          "footprint": "DAFU_PCB:SolderWire_Pad_2.5x2.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": true,
+          "pads": {
+            "1": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "TP5",
+        "schematic": {
+          "value": "NRST",
+          "footprint": "DAFU_PCB:TestPoint_Pad_D1.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "NRST",
+          "footprint": "DAFU_PCB:TestPoint_Pad_D1.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": true,
+          "pads": {
+            "1": "NRST"
+          }
+        },
+        "unit_count": 1,
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "TP6",
+        "schematic": {
+          "value": "GND_RST",
+          "footprint": "DAFU_PCB:TestPoint_Pad_D1.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "GND_RST",
+          "footprint": "DAFU_PCB:TestPoint_Pad_D1.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": true,
+          "pads": {
+            "1": "GND"
+          }
+        },
+        "unit_count": 1,
+        "differences": {
+          "exclude_from_pos": {
+            "schematic": false,
+            "pcb": true
+          }
+        }
+      },
+      {
+        "reference": "U1",
+        "schematic": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN1_AMP",
+            "2": "GND",
+            "3": "IN1_O",
+            "4": "+2V5",
+            "5": "+3.3V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "U2",
+        "schematic": {
+          "value": "STM32F030C6Tx",
+          "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "STM32F030C6Tx",
+          "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+3.3V",
+            "2": "unconnected-(U2-PC13-Pad2)",
+            "3": "unconnected-(U2-PC14-Pad3)",
+            "4": "unconnected-(U2-PC15-Pad4)",
+            "5": "unconnected-(U2-PF0-Pad5)",
+            "6": "unconnected-(U2-PF1-Pad6)",
+            "7": "NRST",
+            "8": "GND",
+            "9": "+3.3V",
+            "11": "unconnected-(U2-PA1-Pad11)",
+            "12": "unconnected-(U2-PA2-Pad12)",
+            "13": "IN1_ADC",
+            "14": "IN2_ADC",
+            "15": "IN3_ADC",
+            "16": "IN4_ADC",
+            "20": "unconnected-(U2-PB2-Pad20)",
+            "21": "unconnected-(U2-PB10-Pad21)",
+            "22": "unconnected-(U2-PB11-Pad22)",
+            "23": "GND",
+            "24": "+3.3V",
+            "25": "unconnected-(U2-PB12-Pad25)",
+            "26": "unconnected-(U2-PB13-Pad26)",
+            "27": "unconnected-(U2-PB14-Pad27)",
+            "28": "unconnected-(U2-PB15-Pad28)",
+            "29": "unconnected-(U2-PA8-Pad29)",
+            "30": "unconnected-(U2-PA9-Pad30)",
+            "31": "unconnected-(U2-PA10-Pad31)",
+            "32": "unconnected-(U2-PA11-Pad32)",
+            "33": "unconnected-(U2-PA12-Pad33)",
+            "34": "SWDIO",
+            "35": "unconnected-(U2-PF6-Pad35)",
+            "36": "unconnected-(U2-PF7-Pad36)",
+            "37": "SWCLK",
+            "38": "unconnected-(U2-PA15-Pad38)",
+            "39": "unconnected-(U2-PB3-Pad39)",
+            "40": "unconnected-(U2-PB4-Pad40)",
+            "41": "unconnected-(U2-PB5-Pad41)",
+            "42": "unconnected-(U2-PB6-Pad42)",
+            "43": "unconnected-(U2-PB7-Pad43)",
+            "44": "Net-(U2-BOOT0)",
+            "45": "unconnected-(U2-PB8-Pad45)",
+            "46": "unconnected-(U2-PB9-Pad46)",
+            "47": "GND",
+            "48": "+3.3V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "U3",
+        "schematic": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN2_AMP",
+            "2": "GND",
+            "3": "IN2_O",
+            "4": "+2V5",
+            "5": "+3.3V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "U4",
+        "schematic": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN3_AMP",
+            "2": "GND",
+            "3": "IN3_O",
+            "4": "+2V5",
+            "5": "+3.3V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "U5",
+        "schematic": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "INA180A4",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN4_AMP",
+            "2": "GND",
+            "3": "IN4_O",
+            "4": "+2V5",
+            "5": "+3.3V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "U6",
+        "schematic": {
+          "value": "TLC2274AIDR",
+          "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+          "Manufacturer": "Texas Instruments",
+          "MPN": "TLC2274AIDR",
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "TLC2274AIDR",
+          "footprint": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+          "Manufacturer": "Texas Instruments",
+          "MPN": "TLC2274AIDR",
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "IN1_O",
+            "2": "IN1_O",
+            "3": "IN1",
+            "4": "+5V",
+            "5": "IN2",
+            "6": "IN2_O",
+            "7": "IN2_O",
+            "8": "IN3_O",
+            "9": "IN3_O",
+            "10": "IN3",
+            "11": "GND",
+            "12": "IN4",
+            "13": "IN4_O",
+            "14": "IN4_O"
+          }
+        },
+        "unit_count": 5,
+        "differences": {}
+      },
+      {
+        "reference": "U7",
+        "schematic": {
+          "value": "ME6206A33XG",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "ME6206A33XG",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-3",
+          "Manufacturer": null,
+          "MPN": null,
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "GND",
+            "2": "+3.3V",
+            "3": "+5V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      },
+      {
+        "reference": "U9",
+        "schematic": {
+          "value": "OPA333AIDBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": "UMW",
+          "MPN": "OPA333AIDBVR",
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "on_board": true
+        },
+        "pcb": {
+          "value": "OPA333AIDBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "Manufacturer": "UMW",
+          "MPN": "OPA333AIDBVR",
+          "dnp": false,
+          "exclude_from_bom": false,
+          "exclude_from_pos": false,
+          "pads": {
+            "1": "+2V5",
+            "2": "GND",
+            "3": "Net-(U9-+)",
+            "4": "+2V5",
+            "5": "+5V"
+          }
+        },
+        "unit_count": 1,
+        "differences": {}
+      }
+    ]
+  },
+  "audit_reference": "Temporary schematic-audit.json; detailed results are summarized in this report."
+}

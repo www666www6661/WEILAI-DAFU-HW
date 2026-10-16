@@ -1,0 +1,179 @@
+{
+  "board_sha256": "16c16d32f7731cb15bf84564cf54f34b62e3aa2eb81f13218ef568a6f13b8d69",
+  "source_unchanged_after_export": true,
+  "drc_active_violations": 0,
+  "drc_excluded_violations": 1,
+  "unconnected_items": 0,
+  "schematic_parity_warnings": 5,
+  "erc_violations": 0,
+  "drc_clean": false,
+  "saved_copper_exported_without_refill": true,
+  "manufacturing_geometry_source": "Exact snapshot of the saved DAFU.kicad_pcb; no assembly-copy geometry is used for Gerber or drill.",
+  "assembly_DNP_source": "Schematic; C11 omitted in assembly exports and 3D previews only.",
+  "previews_visually_checked": true,
+  "assembly": {
+    "source_sha256": "16c16d32f7731cb15bf84564cf54f34b62e3aa2eb81f13218ef568a6f13b8d69",
+    "assembly_copy": "Temporary DAFU-assembly-only.kicad_pcb (not distributed)",
+    "checks": {
+      "front_pos_rows": 42,
+      "back_pos_rows": 0,
+      "all_42_references_match_source": true,
+      "all_42_xy_angles_match_source": true,
+      "reference_positions_rows": 47,
+      "all_47_refs_preserved": true,
+      "reference_coordinates_use_pcb_positive_y": true,
+      "bom_unique_references": 47,
+      "bom_all_47_refs_once": true,
+      "bom_status_quantity": {
+        "Populate": 42,
+        "DNP": 1,
+        "PCB pad": 4
+      },
+      "C11_excluded_from_pos": true,
+      "TPs_excluded_from_pos": true,
+      "U6_BOM_brand_MPN_correct": true,
+      "U9_BOM_brand_MPN_correct": true,
+      "front_svg_no_duplicate_refs": true,
+      "front_svg_values_hidden": true,
+      "back_svg_no_duplicate_refs": true,
+      "back_svg_values_hidden": true
+    },
+    "positions_convention": {
+      "reference_csv": "Source PCB positive Y-down, absolute origin; rotations unchanged",
+      "native_pos_csv": "KiCad standard placement: X source, Y negated, rotations source modulo 360; mm"
+    },
+    "plot_options": {
+      "layers": "side Fab + side Courtyard + Edge.Cuts",
+      "bottom_mirror": true,
+      "references": "shown only on selected side Fab, centered at 0 deg; C11 center reference hidden",
+      "values_and_other_fields": "hidden",
+      "original_reference_graphic_text": "moved to excluded Cmts.User in temporary copy only",
+      "DNP": "C11 marked DNP in temporary assembly copy; native crossout and single C11 DNP note",
+      "pad_outlines": false,
+      "pad_numbers": false,
+      "pdf_scale": "5:1",
+      "svg_scale": "1:1 board crop"
+    },
+    "pdf_qa": {
+      "front": {
+        "pages": 1,
+        "rendered": true,
+        "visually_reviewed": true
+      },
+      "back": {
+        "pages": 1,
+        "rendered": true,
+        "visually_reviewed": true
+      },
+      "final_render_folder": "Temporary assembly-qa directory (not distributed)",
+      "pngs_in_production_package": false
+    },
+    "output_files": {
+      "DAFU-back-assembly.pdf": {
+        "bytes": 5004,
+        "sha256": "7ed45721db277fd89fac37c55b36462885ab055b096624fc8f80e5b450e07a15"
+      },
+      "DAFU-back-assembly.svg": {
+        "bytes": 4880,
+        "sha256": "a015ed2962cf29a91b3bd358318a3a0809efa0bc6de99246266837cdfbe3bec5"
+      },
+      "DAFU-back-pos.csv": {
+        "bytes": 36,
+        "sha256": "2f78b0dba8182984481e1a881e3aa538b27d088bb966433e244aa6f0992a9c85"
+      },
+      "DAFU-BOM.csv": {
+        "bytes": 1468,
+        "sha256": "fb56068e87ccc7acf8f799f99d39977246a1166df8ad3adc84bdf9e986871300"
+      },
+      "DAFU-front-assembly.pdf": {
+        "bytes": 20406,
+        "sha256": "195d0721fcaeef9bc173c3a5e5e87c3781d06a75cc45d9655029976dfadcc4f7"
+      },
+      "DAFU-front-assembly.svg": {
+        "bytes": 97547,
+        "sha256": "0fcdcd3fba9e632a01a44827ac8f39a56dee4419dddfd7cac08d93f7a50f5c3c"
+      },
+      "DAFU-front-pos.csv": {
+        "bytes": 3178,
+        "sha256": "e1dda0f97d1a5e6f3948b9b314fac3bba69c326b654e2a870c7173cf2f1aec41"
+      },
+      "DAFU-reference-positions.csv": {
+        "bytes": 4186,
+        "sha256": "54dfe64036bafafff6997c4fd495a3939e482db31e669d673b1d1a0cd742b725"
+      }
+    },
+    "source_geometry_changed": false,
+    "svg_text_counts": {
+      "front": {
+        "C11 DNP": 1,
+        "J5": 1,
+        "U2": 1,
+        "C20": 1,
+        "C25": 1,
+        "TP1": 1,
+        "J2": 1,
+        "R19": 1,
+        "J1": 1,
+        "U9": 1,
+        "C15": 1,
+        "R9": 1,
+        "R13": 1,
+        "C12": 1,
+        "U3": 1,
+        "C9": 1,
+        "TP2": 1,
+        "R10": 1,
+        "C5": 1,
+        "U6": 1,
+        "R6": 1,
+        "R11": 1,
+        "U1": 1,
+        "U7": 1,
+        "U4": 1,
+        "C4": 1,
+        "J4": 1,
+        "D1": 1,
+        "R16": 1,
+        "J3": 1,
+        "C6": 1,
+        "C13": 1,
+        "C14": 1,
+        "C7": 1,
+        "R12": 1,
+        "C24": 1,
+        "R5": 1,
+        "R15": 1,
+        "U5": 1,
+        "R14": 1,
+        "C3": 1,
+        "C21": 1,
+        "C2": 1,
+        "C1": 1,
+        "C8": 1
+      },
+      "back": {
+        "TP6": 1,
+        "TP5": 1
+      }
+    }
+  },
+  "gerbers_and_drill": {
+    "drill_hits_checked": 74,
+    "drill_diameter_mm": 0.3,
+    "drill_coordinates_match_source": true,
+    "gerber_layers_checked": 8,
+    "gerber_job_functions_match": true,
+    "gerber_x2_file_functions": [
+      "Copper,L1,Top",
+      "Copper,L2,Bot",
+      "Paste,Top",
+      "Legend,Top",
+      "Legend,Bot",
+      "Soldermask,Top",
+      "Soldermask,Bot",
+      "Profile,NP"
+    ],
+    "gerber_units_mm": true,
+    "gerber_coordinates_not_mirrored": true
+  }
+}

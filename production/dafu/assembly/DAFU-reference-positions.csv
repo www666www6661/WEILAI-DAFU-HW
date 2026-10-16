@@ -1,0 +1,48 @@
+﻿Reference,X_mm,Y_mm,Rotation_deg,Side,Value,Footprint,PCB_DNP,Schematic_DNP,Assembly_Status
+C1,56.52,54.62,0.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C2,56.245,48.02,180.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C3,51.463563,48.045767,180.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C4,46.915,48.02,180.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C5,42.345,48.02,180.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C6,43.97,50.97,180.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C7,55.82,52.345,90.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C8,51.72,60.77,180.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C9,54.77,60.77,0.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C11,40.37,38.82,90.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,True,DNP
+C12,53.72,38.27,90.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C13,55.82,58.52,-90.0,top,100nf,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C14,61.22,48.97,0.0,top,10uF,DAFU_PCB:C_0805_2012Metric,False,False,Populate
+C15,61.52,55.57,180.0,top,10uF,DAFU_PCB:C_0805_2012Metric,False,False,Populate
+C20,43.17,36.145,180.0,top,100nF,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C21,38.02,48.67,0.0,top,100nF,DAFU_PCB:C_0603_1608Metric,False,False,Populate
+C24,54.57,32.72,90.0,top,10uF,DAFU_PCB:C_0805_2012Metric,False,False,Populate
+C25,56.545,32.72,90.0,top,10uF,DAFU_PCB:C_0805_2012Metric,False,False,Populate
+D1,61.45,58.47,0.0,top,LED,LED_SMD:LED_0603_1608Metric,False,False,Populate
+J1,60.92,43.47,90.0,top,Conn_01x03_MountingPin,Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal,False,False,Populate
+J2,60.92,35.27,90.0,top,Conn_01x03_MountingPin,Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal,False,False,Populate
+J3,37.52,35.27,-90.0,top,Conn_01x03_MountingPin,Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal,False,False,Populate
+J4,37.52,43.47,-90.0,top,Conn_01x03_MountingPin,Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal,False,False,Populate
+J5,38.22,55.67,-90.0,top,Conn_01x04,Connector_Molex:Molex_CLIK-Mate_502386-0470_1x04-1MP_P1.25mm_Horizontal,False,False,Populate
+R5,48.52,60.77,180.0,top,10k,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R6,56.52,56.17,180.0,top,10k,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R9,41.545,33.32,90.0,top,5.1k,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R10,43.07,33.32,-90.0,top,5.1k,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R11,61.45,60.37,180.0,top,5.1k,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R12,44.545,33.32,-90.0,top,820K,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R13,58.67,49.17,-90.0,top,100R,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R14,53.745,48.02,-90.0,top,100R,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R15,49.17,48.02,-90.0,top,100R,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R16,44.7,48.025,-90.0,top,100R,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+R19,42.92,53.27,90.0,top,0,DAFU_PCB:R_0603_1608Metric,False,False,Populate
+TP1,47.145,32.07,0.0,top,5V_IN,DAFU_PCB:SolderWire_Pad_2.5x2.5mm,False,False,PCB pad
+TP2,50.67,32.07,0.0,top,GND,DAFU_PCB:SolderWire_Pad_2.5x2.5mm,False,False,PCB pad
+TP5,56.42,54.62,180.0,bottom,NRST,DAFU_PCB:TestPoint_Pad_D1.5mm,False,False,PCB pad
+TP6,56.42,56.97,180.0,bottom,GND_RST,DAFU_PCB:TestPoint_Pad_D1.5mm,False,False,PCB pad
+U1,55.97,44.92,-90.0,top,INA180A4,Package_TO_SOT_SMD:SOT-23-5,False,False,Populate
+U2,49.42,54.87,180.0,top,STM32F030C6Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm,False,False,Populate
+U3,51.52,44.97,-90.0,top,INA180A4,Package_TO_SOT_SMD:SOT-23-5,False,False,Populate
+U4,46.94,45.0325,-90.0,top,INA180A4,Package_TO_SOT_SMD:SOT-23-5,False,False,Populate
+U5,42.47,44.97,-90.0,top,INA180A4,Package_TO_SOT_SMD:SOT-23-5,False,False,Populate
+U6,49.22,38.27,180.0,top,TLC2274AIDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,False,False,Populate
+U7,61.72,52.47,90.0,top,ME6206A33XG,Package_TO_SOT_SMD:SOT-23-3,False,False,Populate
+U9,43.17,38.5825,0.0,top,OPA333AIDBVR,Package_TO_SOT_SMD:SOT-23-5,False,False,Populate

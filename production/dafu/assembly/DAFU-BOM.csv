@@ -1,0 +1,22 @@
+﻿References,Quantity_per_board,Value,Footprint,Manufacturer,MPN,Assembly_Status
+"C1, C2, C3, C4, C5, C6, C7, C8, C9, C12, C13",11,100nf,DAFU_PCB:C_0603_1608Metric,,,Populate
+C11,1,100nf,DAFU_PCB:C_0603_1608Metric,,,DNP
+"C14, C15, C24, C25",4,10uF,DAFU_PCB:C_0805_2012Metric,,,Populate
+"C20, C21",2,100nF,DAFU_PCB:C_0603_1608Metric,,,Populate
+D1,1,LED,LED_SMD:LED_0603_1608Metric,,,Populate
+"J1, J2, J3, J4",4,Conn_01x03_MountingPin,Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal,,,Populate
+J5,1,Conn_01x04,Connector_Molex:Molex_CLIK-Mate_502386-0470_1x04-1MP_P1.25mm_Horizontal,,,Populate
+"R5, R6",2,10k,DAFU_PCB:R_0603_1608Metric,,,Populate
+"R9, R10, R11",3,5.1k,DAFU_PCB:R_0603_1608Metric,,,Populate
+R12,1,820K,DAFU_PCB:R_0603_1608Metric,,,Populate
+"R13, R14, R15, R16",4,100R,DAFU_PCB:R_0603_1608Metric,,,Populate
+R19,1,0,DAFU_PCB:R_0603_1608Metric,,,Populate
+TP1,1,5V_IN,DAFU_PCB:SolderWire_Pad_2.5x2.5mm,,,PCB pad
+TP2,1,GND,DAFU_PCB:SolderWire_Pad_2.5x2.5mm,,,PCB pad
+TP5,1,NRST,DAFU_PCB:TestPoint_Pad_D1.5mm,,,PCB pad
+TP6,1,GND_RST,DAFU_PCB:TestPoint_Pad_D1.5mm,,,PCB pad
+"U1, U3, U4, U5",4,INA180A4,Package_TO_SOT_SMD:SOT-23-5,,,Populate
+U2,1,STM32F030C6Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm,,,Populate
+U6,1,TLC2274AIDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Texas Instruments,TLC2274AIDR,Populate
+U7,1,ME6206A33XG,Package_TO_SOT_SMD:SOT-23-3,,,Populate
+U9,1,OPA333AIDBVR,Package_TO_SOT_SMD:SOT-23-5,UMW,OPA333AIDBVR,Populate

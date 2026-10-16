@@ -1,0 +1,182 @@
+{
+  "board_name": "DAFU-DEMO-V0.2.1",
+  "created_utc": "2026-10-12T12:08:37.379886+00:00",
+  "kicad_version": "10.0.5",
+  "source_root": "../..",
+  "sources_sha256": {
+    "DAFU.kicad_pcb": "16c16d32f7731cb15bf84564cf54f34b62e3aa2eb81f13218ef568a6f13b8d69",
+    "DAFU.kicad_pro": "d2baee48b22a4dd75928ed70867556d057c4aabef0a0daf1c715994b24fc2385",
+    "DAFU.kicad_sch": "950f0027fa88d0f253d86678b976825fd9cf5666869c58acd82876a890114edf",
+    "DAFU_Local.kicad_sym": "aa963dfeb62a48ebac863134a4c3457db556e43baf21a87b515aa36d1fee3c98",
+    "fp-lib-table": "7b34e2fbb6d8246088e38401287c445ceb58d71fe4fed2d4eff5a7f052118ac1",
+    "sym-lib-table": "adfa56796e02be0877754879a083e6fb0d18d826a8aaa6b374fd763fa375c32b",
+    "DAFU_PCB.pretty/C_0603_1608Metric.kicad_mod": "63408db1379bb188b71268de6b433ec15b5971dea93462a0cb6c3d147c6e6503",
+    "DAFU_PCB.pretty/C_0805_2012Metric.kicad_mod": "fec76a6ff1217eccb9ca8e50170b5afa86190863950e8a5f5c572110af11c253",
+    "DAFU_PCB.pretty/R_0603_1608Metric.kicad_mod": "1915adaee3f7767a306db4e4c30cfd18861db0828244426902579721acb1ff06",
+    "DAFU_PCB.pretty/SolderWire_Pad_2.5x2.5mm.kicad_mod": "c99e6ad637ff5636900a95dd5c40bcd444a3b613cc6033841930e77afc5c8967",
+    "DAFU_PCB.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "b7d218bffa728a8c3408280df0532159c0ff122676ab2d388205b7bc2979fd67",
+    "DAFU_PCB.pretty/TestPoint_Pad_D2.5mm.kicad_mod": "185f65f1fbcc3a1804f37d95ad60c1d19e6b88799fb00c1800efcc1c0711bef5"
+  },
+  "source_unchanged_after_export": true,
+  "status": "exported_with_documented_schematic_parity_warnings",
+  "drc_summary": {
+    "drc_active_violations": 0,
+    "drc_excluded_violations": 1,
+    "unconnected_items": 0,
+    "schematic_parity_warnings": 5,
+    "erc_violations": 0,
+    "drc_clean": false
+  },
+  "native_teardrops": {
+    "padvia": 279
+  },
+  "files": {
+    "assembly/DAFU-back-assembly.pdf": {
+      "sha256": "7ed45721db277fd89fac37c55b36462885ab055b096624fc8f80e5b450e07a15",
+      "bytes": 5004
+    },
+    "assembly/DAFU-back-assembly.svg": {
+      "sha256": "a015ed2962cf29a91b3bd358318a3a0809efa0bc6de99246266837cdfbe3bec5",
+      "bytes": 4880
+    },
+    "assembly/DAFU-back-pos.csv": {
+      "sha256": "2f78b0dba8182984481e1a881e3aa538b27d088bb966433e244aa6f0992a9c85",
+      "bytes": 36
+    },
+    "assembly/DAFU-BOM.csv": {
+      "sha256": "fb56068e87ccc7acf8f799f99d39977246a1166df8ad3adc84bdf9e986871300",
+      "bytes": 1468
+    },
+    "assembly/DAFU-front-assembly.pdf": {
+      "sha256": "195d0721fcaeef9bc173c3a5e5e87c3781d06a75cc45d9655029976dfadcc4f7",
+      "bytes": 20406
+    },
+    "assembly/DAFU-front-assembly.svg": {
+      "sha256": "0fcdcd3fba9e632a01a44827ac8f39a56dee4419dddfd7cac08d93f7a50f5c3c",
+      "bytes": 97547
+    },
+    "assembly/DAFU-front-pos.csv": {
+      "sha256": "e1dda0f97d1a5e6f3948b9b314fac3bba69c326b654e2a870c7173cf2f1aec41",
+      "bytes": 3178
+    },
+    "assembly/DAFU-reference-positions.csv": {
+      "sha256": "54dfe64036bafafff6997c4fd495a3939e482db31e669d673b1d1a0cd742b725",
+      "bytes": 4186
+    },
+    "documentation/board-statistics.txt": {
+      "sha256": "7f49c0abce4109efd7c1f63f13d2589bc29e67aa31a41506d5b0b72d8f143a85",
+      "bytes": 1238
+    },
+    "documentation/current-board-summary.json": {
+      "sha256": "b4bc080ae21ab6ba46ddd4ecef4f1549e1da9cafb67bd8c0aa88e0b42037377f",
+      "bytes": 48378
+    },
+    "documentation/final-drc.json": {
+      "sha256": "111628065102fe7fd9f731b34f245337478a67a4055a5f1c1e35d14d9a301b5c",
+      "bytes": 4230
+    },
+    "documentation/final-erc.json": {
+      "sha256": "a1bff1fca2ca4111e6f7ce2f9b9f6094094d1a0708e1aa71a2aa9d67d745234c",
+      "bytes": 1035
+    },
+    "documentation/LAYOUT-NOTES.md": {
+      "sha256": "73a3ed71cbdea8b6d42e1821412bd5b8e4b8ae71597b8d8bb3553c0143fece50",
+      "bytes": 3626
+    },
+    "documentation/release-verification.json": {
+      "sha256": "d7c59d1d66f8718742ca2ebfae82f91faf9a39556ac06862510f6f062aeef368",
+      "bytes": 5593
+    },
+    "gerbers/DAFU-B_Cu.gbl": {
+      "sha256": "f45eb3a74553f9bad1d4bfd4e534ee9a13f5329bb40882efdd2469991851b212",
+      "bytes": 89010
+    },
+    "gerbers/DAFU-B_Mask.gbs": {
+      "sha256": "e2df2f727034f9627b9bb8faf39e5c1f71dd5bcdaaf6df14303d0d9d502be97e",
+      "bytes": 585
+    },
+    "gerbers/DAFU-B_Silkscreen.gbo": {
+      "sha256": "e7b419915220d01b4b57f6b9ba6e841111cf4900630e0d709a82733fe2d18fc9",
+      "bytes": 32970
+    },
+    "gerbers/DAFU-Edge_Cuts.gm1": {
+      "sha256": "df158b8e73d5d1f4b3444ac1e396122f2e9d75c3cbf3d8ab630344fb372d4580",
+      "bytes": 897
+    },
+    "gerbers/DAFU-F_Cu.gtl": {
+      "sha256": "b235520004a9527daa967259c1318c8f1d02828a03497338d48b1f7a4caeb39a",
+      "bytes": 323588
+    },
+    "gerbers/DAFU-F_Mask.gts": {
+      "sha256": "137112439588d63be61f981d8a20fa8f84ee7007da552851b9c7afc57b943455",
+      "bytes": 8900
+    },
+    "gerbers/DAFU-F_Paste.gtp": {
+      "sha256": "e5f8ad028ddd3ad87053c3ad4ff908b7be074f20ddda1462e3d0e978d8c04ed4",
+      "bytes": 8687
+    },
+    "gerbers/DAFU-F_Silkscreen.gto": {
+      "sha256": "186d87f2c9b4e3dee78630899b84a420c7fcf49e3ef42a3e7f9bf6066ad64e3b",
+      "bytes": 15307
+    },
+    "gerbers/DAFU-job.gbrjob": {
+      "sha256": "ffe3bd3b955f95be37976f8ebcf439d24625539b00a1779c3937fb5c558c2530",
+      "bytes": 2650
+    },
+    "gerbers/DAFU.drl": {
+      "sha256": "0066c678faf2e622d6866673b802d726c1409f1738a04b4e5fb5f47e87cf94e8",
+      "bytes": 1477
+    },
+    "gerbers/drill-report.txt": {
+      "sha256": "5665817cdb153da68351e33e34c6d65c9cd5ceaf031324eadf6a653db12150c8",
+      "bytes": 615
+    },
+    "previews/back-3d.png": {
+      "sha256": "6c9baad197c2dd8376588e965ca51397e37240882f3c2c5350e88e18ebed8d61",
+      "bytes": 200551
+    },
+    "previews/back-copper.png": {
+      "sha256": "a6bbafb2da274d5c15488cb4df30cbcab3275ccc7e1b2e4a1b4b5011403216b2",
+      "bytes": 118317
+    },
+    "previews/back-copper.svg": {
+      "sha256": "18a64c868560fbdd319b7c3a464529a93fe12140c38e59c4ef0f499e8446ed0a",
+      "bytes": 68066
+    },
+    "previews/back-silkscreen.png": {
+      "sha256": "4e8592ca05e57dc481d44a62ffed5debd5acdba9ad4dbfacf7d363f579385857",
+      "bytes": 45490
+    },
+    "previews/back-silkscreen.svg": {
+      "sha256": "34f85ef6f102be8073b1a13e93b2a495a76662a5976208f106b46ed1f43338df",
+      "bytes": 69409
+    },
+    "previews/front-3d.png": {
+      "sha256": "4beebc1e17eb06cabd7a0b37350ec375711a4b9f64c3ba4769e61162b989e137",
+      "bytes": 762204
+    },
+    "previews/front-copper.png": {
+      "sha256": "db2ffe1fe481ca5b9c80eee0388dbe53dedf17857c7cb616d9bb1711bee3470c",
+      "bytes": 202627
+    },
+    "previews/front-copper.svg": {
+      "sha256": "b18afd7f4a910247d69cc302d8641fef66bad7720ad74d0e78cbafe006c78eb5",
+      "bytes": 308944
+    },
+    "previews/front-silkscreen.png": {
+      "sha256": "eba228b1b9045adef97d3beb4e60d00b6a59dae40f1c240c97e6f8353e2405cc",
+      "bytes": 33354
+    },
+    "previews/front-silkscreen.svg": {
+      "sha256": "b40346b2060d7bf8e8956a8ceb000d621abd75a779007182e4449f66fe6c2cd8",
+      "bytes": 18890
+    },
+    "README.md": {
+      "sha256": "32e6590c025b5dd0add3c7640f4357811911306c92dc4fc879aaf448da1d46af",
+      "bytes": 3979
+    }
+  },
+  "source_root_relative_to": "manifest directory",
+  "repository_packaged_utc": "2026-10-16T03:42:27.833834+00:00",
+  "packaging_notes": "Reorganized into production/dafu; source and fabrication/assembly/preview bytes unchanged. Workstation-specific paths and temporary export log omitted."
+}
